@@ -1,15 +1,15 @@
 package com.tt1.trabajo.servicios;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import com.tt1.trabajo.servicios.ServicioSolicitud;
+import com.tt1.trabajo.servicios.ServicioSolicitudes;
 
 import org.junit.jupiter.api.Assertions.*;
 
 public class ServicioSolicitudTest{
-  private ServicioSolicitud servicio;
+  private ServicioSolicitudes servicio;
   @BeforeEach
   void setUp(){
-    servicio = new ServicioSolicitud();
+    servicio = new ServicioSolicitudes();
   }
 
   @Test
