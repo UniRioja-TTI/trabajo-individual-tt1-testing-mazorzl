@@ -15,19 +15,12 @@ public class ServicioSolicitudes implements InterfazContactoSim {
 
     @Override
     public int solicitarSimulation(DatosSolicitud sol) {
-        this.solicitudProvisional = sol;
-        Random random = new Random();
-        return random.nextInt(10000); 
+        return 0;
     }
 
     @Override
     public List<Entidad> getEntities() {
-        List<Entidad> lista = new ArrayList<>();
-        lista.add(new Entidad(1, "Entidad Alfa", "A"));
-        lista.add(new Entidad(2, "Entidad Beta", "B"));
-        lista.add(new Entidad(3, "Entidad Gamma", "G"));
-        
-        return lista;
+        return List.of();
     }
 
     @Override
